@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -40,5 +40,73 @@
         <li><audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls>Audio</audio></li>
       </ol>
       
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Table and Media List</title>
+  <style>
+    /* Add some basic styling for demonstration purposes */
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .media-heading {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Roll numbers</th>
+        <th>Names</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>John Doe</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Jane Smith</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Mike Johnson</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="media-heading">List of medias</h2>
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+    </li>
+    <li>
+      <video controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+      </audio>
+    </li>
+  </ol>
 </body>
 </html>
